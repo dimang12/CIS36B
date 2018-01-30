@@ -26,7 +26,7 @@ public class App {
         conv.setWeight(sc.nextInt());
         
         conv.printProgrameMenu();
-//        System.out.println("" + conv.getWeight());
+        System.out.println("" + conv.getWeight());
         
     }
     
