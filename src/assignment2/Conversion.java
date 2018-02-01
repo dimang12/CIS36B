@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package assignment2;
+//package assignment2;
 
 /**
  *
@@ -30,6 +30,22 @@ public class Conversion {
         System.out.println("* 4) Calculate Weight on Mars\t\t*");
         System.out.println("* 5) Quit\t\t\t\t*");
         System.out.println("*****************************************");
+    }
+    
+    public float convMercury(){
+        return (float) (this.weight * .3);
+    }
+    
+    public float convVenus(){
+        return (float) (this.weight * .9);
+    }
+    
+    public float convMoon(){
+        return (float) (this.weight * .1);
+    }
+    
+    public float convMars(){
+        return (float) (this.weight * .3);
     }
     
 }
